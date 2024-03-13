@@ -11,3 +11,16 @@
     @content;
   }
 }
+
+//mobile text styles
+@mixin font-m-body {
+    font-size: 0.8125rem;
+    line-height: 1.1875rem;
+    font-weight: 700;
+}
+//desktop text styles
+@mixin font-body{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
