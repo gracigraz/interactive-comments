@@ -4,14 +4,34 @@
 
 
 .add-comment{
+    padding: 1rem;
+    background-color: $neutral-white;
+    border-radius: .5rem;
     &__input{
         resize: none;
-        border: 1px solid $primary-moderateBlue;
+        border: 1px solid $neutral-lightGray;
         border-radius: 0.5rem;
         padding: 0.5rem 1rem;
         font-size: 1rem;
         font-family: "Rubik";
-        color: $primary-lightGrayishBlue
+        color: $neutral-grayishBlue;
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 10vh;
+        box-sizing: border-box;
     }
+    &__div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__profile{
+        border-radius: 50%;
+        background-color: $primary-moderateBlue;
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+
 
 }

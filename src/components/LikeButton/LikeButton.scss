@@ -5,26 +5,35 @@
 .like-button{
     color: $primary-moderateBlue;
     background-color: $neutral-veryLightGray;
-    padding: .5rem 1.25rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 700;
+    padding: .25rem 1.5rem;
     border: 1px solid $neutral-veryLightGray;
     border-radius: 0.75rem;
-    width: 6%;
+    width: 10%;
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
     &__add, &__remove{
         border: none;
         background-color: $neutral-veryLightGray;
         color: $neutral-darkBlue;
         font-size: 1.25rem;
+        cursor: pointer;
+        padding: 5px; 
+        border-radius: 5px; 
+        margin: 0 15px;
+    }
+    
+    &__add{
+        margin-bottom: 7.5px;
     }
     &__counter{
         padding: .5rem;
-        font-size: 1rem;
+        margin: 0 1.5rem ;
     }
+
 }
 

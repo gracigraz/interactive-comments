@@ -7,7 +7,7 @@ const AddComment = () =>{
 
         <form className="add-comment">
         {/* <img/> */}
-            <textarea className="add-comment__input" placeholder="Write a comment..."/>
+            <textarea className="add-comment__input" placeholder="Add a comment..."/>
             <div className="add-comment__div">        
                 <div className="add-comment__profile"></div>
                 <RectangularButton/>
