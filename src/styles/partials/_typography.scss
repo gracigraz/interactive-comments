@@ -1,0 +1,22 @@
+@use "variables" as *;
+
+@font-face {
+  font-family: $font-family-rubik;
+  src: url("../../assets/fonts/Rubik-Light.ttf") format("ttf");
+  font-weight: $font-weight-normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-family-rubik;
+  src: url("../../assets/fonts/Rubik-Regular.ttf") format("ttf");
+  font-weight: $font-weight-medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-family-rubik;
+  src: url("../../assets/fonts/Rubik-Bold.ttf") format("ttf");
+  font-weight: $font-weight-bold;
+  font-style: normal;
+}

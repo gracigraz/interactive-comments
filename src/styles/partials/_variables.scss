@@ -1,0 +1,24 @@
+//variables
+
+//screen breaking points
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1440px;
+
+//primary colors
+$primary-moderateBlue: hsl(238, 40%, 52%);
+$primary-softRed: hsl(358, 79%, 66%);
+$primary-lightGrayishBlue: hsl(239, 57%, 85%);
+$primary-paleRed: hsl(357, 100%, 86%);
+
+//neutral, secondary colors
+$neutral-darkBlue: hsl(212, 24%, 26%);
+$neutral-grayishBlue: hsl(211, 10%, 45%);
+$neutral-lightGray: hsl(223, 19%, 93%);
+$neutral-veryLightGray: hsl(228, 33%, 97%);
+$neutral-white: hsl(0, 0%, 100%);
+
+// font variables
+$font-family-rubik: "Rubik", monospace, sans-serif; //monospace and sans-serif added as allbacks in case Space mono is not available on the user's system or there is an issue loading it.
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
