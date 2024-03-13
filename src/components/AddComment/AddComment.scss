@@ -1,3 +1,17 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/mixins" as *;
+
+
+.add-comment{
+    &__input{
+        resize: none;
+        border: 1px solid $primary-moderateBlue;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        font-family: "Rubik";
+        color: $primary-lightGrayishBlue
+    }
+
+}

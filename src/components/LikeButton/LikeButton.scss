@@ -1,3 +1,30 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/mixins" as *;
+
+.like-button{
+    color: $primary-moderateBlue;
+    background-color: $neutral-veryLightGray;
+    padding: .5rem 1.25rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    border: 1px solid $neutral-veryLightGray;
+    border-radius: 0.75rem;
+    width: 6%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    &__add, &__remove{
+        border: none;
+        background-color: $neutral-veryLightGray;
+        color: $neutral-darkBlue;
+        font-size: 1.25rem;
+    }
+    &__counter{
+        padding: .5rem;
+        font-size: 1rem;
+    }
+}
+
