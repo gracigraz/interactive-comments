@@ -1,8 +1,19 @@
 import React from 'react'
 import "./RectangularButton.scss"
-const RectangularButton = () =>{
+
+
+type RectangularButtonProps = {
+    text: string;
+    bgColor: string;
+};
+
+
+const RectangularButton = ({text, bgColor}: RectangularButtonProps) =>{
+    const buttonStyle ={
+        backgroundColor: bgColor,
+    }
     return (
-    <button  className='rectangular-button'>SEND
+    <button  className='rectangular-button' style={buttonStyle}>{text}
     </button>
     )
 

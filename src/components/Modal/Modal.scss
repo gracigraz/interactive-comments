@@ -1,0 +1,29 @@
+.modal{
+    background-color: $neutral-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: .5rem;
+    padding: 1rem;
+    &__title{
+        font-size: 1.25rem;
+        font-family: "Rubik";
+        color: $neutral-darkBlue;
+        font-weight: 500;
+        line-height: 1.25rem;
+    }
+    &__body{
+        font-size: 1rem;
+        font-family: "Rubik";
+        color: $neutral-grayishBlue;
+        font-weight: 400;
+        line-height: 1.25rem; 
+    }
+    &__btns{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}

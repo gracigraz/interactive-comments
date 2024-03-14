@@ -10,7 +10,7 @@ const AddComment = () =>{
             <textarea className="add-comment__input" placeholder="Add a comment..."/>
             <div className="add-comment__div">        
                 <div className="add-comment__profile"></div>
-                <RectangularButton/>
+                <RectangularButton text="SEND" bgColor="4448C5"/>
             </div>
         </form>
     )
