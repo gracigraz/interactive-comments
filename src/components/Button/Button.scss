@@ -1,0 +1,21 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/mixins" as *;
+
+
+.button{
+    border: none;
+    background-color: $neutral-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__text{
+        padding-left: .5rem;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        font-family: "Rubik";
+
+    }
+}
