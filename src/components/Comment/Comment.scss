@@ -10,7 +10,21 @@
         margin-bottom: 1rem;
         padding: 1rem;
         border-radius: .5rem;
-
+    }
+    &__reply{
+        background-color: $neutral-white;
+        padding: 1rem;
+        border-radius: .5rem;
+    
+    }
+    &__reply-container{
+        padding-left: 1rem;
+        border-left: $neutral-lightGray 2px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
     }
     &__top-div{
         display: flex;
