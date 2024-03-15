@@ -22,6 +22,18 @@
         font-size: 1.25rem;
         cursor: pointer;
         border-radius: 5px; 
+       
+        
+    }
+    &__img{
+        fill: $primary-lightGrayishBlue;
+        &:hover {
+            fill: $primary-moderateBlue;
+          }
+    
+        &:active {
+            fill: $primary-moderateBlue;
+        }
     }
     
     &__remove{

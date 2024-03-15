@@ -51,9 +51,9 @@ const Comment: React.FC = () =>{
     };
     return(
         <div className="comments">
-               {commentsData.comments.map((comment) => (
+               {data.comments.map((comment) => (
                 <>
-                 <div key={comment.id} className="comments__container">
+                <div key={comment.id} className="comments__container">
             <div className="comments__top-div">
                 <img className="comments__profile" src={comment.user.image.png} alt={comment.user.username}/>
                 <span className="comments__username">{comment.user.username}</span>

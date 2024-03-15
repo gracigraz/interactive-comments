@@ -11,5 +11,18 @@
     font-weight: 700;
     border: 0px solid $primary-moderateBlue;
     border-radius: 0.5rem;
+    &:hover {
+        background-color: $primary-lightGrayishBlue;
+        border-color: $primary-lightGrayishBlue;
+
+        cursor: pointer;
+      }
+
+    &:active {
+      background-color: $primary-lightGrayishBlue;
+      border-color: $primary-lightGrayishBlue;
+
+      cursor: pointer;
+    }
 
 }
