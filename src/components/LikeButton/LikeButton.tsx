@@ -2,9 +2,11 @@ import React, {useState} from 'react'
 import "./LikeButton.scss"
 import plusIcon from '../../assets/images/icons/icon-plus.svg'
 import minusIcon from '../../assets/images/icons/icon-minus.svg'
-
-const LikeButton = () =>{
-    const [count, setCount] =useState(0)
+interface LikeButtonProps{
+    score: number;
+}
+const LikeButton = ({ score}: LikeButtonProps) =>{
+    const [count, setCount] =useState<number>(score)
     const incrementCount =()=>{
         setCount(prevCount => prevCount+1)
     }
